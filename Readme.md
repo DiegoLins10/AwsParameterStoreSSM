@@ -1,6 +1,6 @@
 ﻿---
 
-# 📦 AwsParameterStoreSSM (.NET)
+# 📦 AWS Parameter Store - Retorno de parametros (.NET)
 
 Este projeto é um exemplo simples de como integrar o **AWS Systems Manager Parameter Store** com uma API ASP.NET Core, utilizando a biblioteca `Amazon.Extensions.Configuration.SystemsManager`.
 
