@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 var enviroment = builder.Environment.EnvironmentName.ToLower();
 
 //adiciona os atributos do ssm
-builder.Configuration.AddSystemsManager($"/{enviroment}/ssm");
+builder.Configuration.AddSystemsManager($"/{enviroment}/ssm", TimeSpan.FromSeconds(5));
 
 builder.Services.AddControllers();
 
