@@ -1,0 +1,6 @@
+@AwsParameterStoreSSM.API_HostAddress = http://localhost:5031
+
+GET {{AwsParameterStoreSSM.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
