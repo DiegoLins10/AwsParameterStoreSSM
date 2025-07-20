@@ -57,7 +57,7 @@ builder.Services.Configure<AwsParameterCommon>(builder.Configuration.GetSection(
 Exemplo de parâmetro no SSM:
 
 ```
-Name: /development/ssm/Settings:ConnectionString
+Name: /development/ssm/Settings/ConnectionString
 Type: String
 Value: Server=mydb;Database=main;
 ```
